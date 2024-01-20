@@ -15,9 +15,11 @@ const name = 'Nusrat';
 const gameName = new String('Hello World');
 // console.log(typeof userName); // string
 // console.log(typeof gameName); // object
-console.log(gameName[0]);
-console.log(name.length);
+// console.log(gameName[0]);
+// console.log(name.length);
 // info: JavaScript internally converts this string variable to a String object temporarily to access the methods.
-console.log(gameName.__proto__); //? not recommended
-console.log(Object.getPrototypeOf(gameName));
+// console.log(gameName.__proto__); //? not recommended
+// console.log(Object.getPrototypeOf(gameName));
+
+
 
